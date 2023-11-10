@@ -36,3 +36,16 @@ body {
   justify-content: flex-start; /* Ajusta o alinhamento horizontal para a esquerda */
   align-items: flex-start;
 }
+
+
+.meuTexto::before {
+  content: attr(data-link); /* Usa o atributo data-link para simular o texto do link */
+  display: inline; /* Exibe o link como parte do conteúdo */
+  color: blue; /* Cor do link */
+  text-decoration: underline; /* Adiciona sublinhado para parecer um link */
+  cursor: pointer; /* Mostra o cursor como o de um link */
+}
+
+.meuTexto::before:hover {
+  text-decoration: none; /* Remove sublinhado ao passar o mouse */
+}
