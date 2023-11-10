@@ -11,3 +11,28 @@ body {
 .teste {
   background-color: aquamarine;
 }
+
+.maincol {
+  background-color: rgba(0, 89, 255, 0.644);
+  border-radius: 20px;
+}
+
+.mybox {
+  margin: 15px;
+}
+
+.commomMargin {
+  margin: 15px;
+}
+
+.myMessage {
+  max-width: 25%;
+  margin: auto;
+  text-align: left;
+}
+
+.leftalign {
+  display: flex; /* Use display flex para habilitar flexbox */
+  justify-content: flex-start; /* Ajusta o alinhamento horizontal para a esquerda */
+  align-items: flex-start;
+}
